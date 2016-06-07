@@ -1,0 +1,101 @@
+/*@mixin enlace($bckg,$pdg,$clr){
+	background-color:$bckg;
+	padding:$pdg;
+	color:$clr;
+}
+
+.rojo {
+	@include enlace($rojo, 7px, white);
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+
+
+
+@mixin cuadro{
+	border:1px solid #888C8C;
+	text-align:center;
+	padding:10px;
+	margin-bottom:10px;
+	height:230px;
+}
+
+.caja {
+	@include cuadro;
+}
+
+
+
+
+@mixin boton{
+	color:white;
+	width:30px;
+	border-radius:10px;
+}
+
+.btn-a {
+	@include boton;
+}
+
+
+
+
+
+
+@mixin blog{
+	background-color: $grey-claro;
+	padding:10px;
+	text-align: left;
+	font-size: 10px;
+         	img{
+		padding:5px;
+		height: 60px;
+		background-color:white;
+		}
+}
+
+
+
+
+
+
+@mixin rounded ($radio){
+	border-radius:$radio;
+	-moz-border-radius:$radio;
+	-webkit-border-radius:$radio;
+}
+
+#footer{
+	@include rounded (5px);
+}
+
+
+
+
+@mixin botones ($radio, $color){
+	border-radius:$radio;
+	color: $color;
+}
+
+.btn-a{
+	@include botones (10px, #000000);
+}
+
+
+
+
+
+@mixin rounded ($radio:10px){
+	border-radius:$radio;
+	-moz-border-radius:$radio;
+	-webkit-border-radius:$radio;
+}
+
+#footer{
+	@include rounded;
+}
+
+
+
+*/
